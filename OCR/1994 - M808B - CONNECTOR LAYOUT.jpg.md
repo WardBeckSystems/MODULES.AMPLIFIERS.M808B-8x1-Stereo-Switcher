@@ -1,5 +1,5 @@
 # 1994 - M808B - CONNECTOR LAYOUT.jpg
-Wiki page: [M808B](../../../PAGES/M808B.md)
+Wiki page: [M808B](../../../../PAGES/M808B.md)
 
 
 - **Year:** 1994 (module estimate (family))
@@ -35,7 +35,7 @@ Q * 8 8
 
 ```json
 {
- "file": "Modules/AMPLIFIERS/M808B/1994 - M808B - CONNECTOR LAYOUT.jpg",
+ "file": "Modules/AMPLIFIERS/M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.jpg",
  "sha256": "2aeb6c78dcd88fe1865f69113578c329b5b7efa3e4631026b2c620ded0126311",
  "kind": "module",
  "models": [
