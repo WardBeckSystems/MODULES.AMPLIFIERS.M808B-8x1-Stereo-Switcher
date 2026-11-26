@@ -11,6 +11,17 @@ Wiki page: [M808B](../../../../PAGES/M808B.md)
 - **Size:** 7,561,812 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–284 mm across, 6–410 mm up
+- **Outlines:** line 671 rings, 6,830 straight (12,947 mm) / 1,838 curved (2,466 mm); text 193 rings, 1,630 straight (1,605 mm) / 545 curved (711 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 3.5 @ (27.4, 17.7), r 3.5 @ (249.3, 11.4), r 3.0 @ (219.5, 117.0), r 3.0 @ (62.7, 321.5)
+- **Closed boxes:** 12; named: 88; 8 8 Ji E 8 8 8
+- **Words (OCR):** 5 in 4 lines: 88 · 8 8 · Ji · E 8 8 8
+
+Every curve, box, word and wire group: [1994 - M808B - CONNECTOR LAYOUT (traced).json](../PINOUTS/1994%20-%20M808B%20-%20CONNECTOR%20LAYOUT%20%28traced%29.json) (the CAD file: `1994 - M808B - CONNECTOR LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -22,7 +22,7 @@ Wiki page: [M808B](../../../../PAGES/M808B.md)
 - **Dots (junctions):** 2
 - **Wiring (first pass):** 30 connected wire groups from 493 runs, 4 dotted junctions
 
-Every curve, box, word and wire group: [1994 - M808B - 808-02-003 - MODULE SCHEMA TIC (traced).json](../SCHEMATICS/1994%20-%20M808B%20-%20808-02-003%20-%20MODULE%20SCHEMA%20TIC%20(traced).json) (the CAD file: `1994 - M808B - 808-02-003 - MODULE SCHEMA TIC (traced).dxf`).
+Every curve, box, word and wire group: [1994 - M808B - 808-02-003 - MODULE SCHEMA TIC (traced).json](../SCHEMATICS/1994%20-%20M808B%20-%20808-02-003%20-%20MODULE%20SCHEMA%20TIC%20%28traced%29.json) (the CAD file: `1994 - M808B - 808-02-003 - MODULE SCHEMA TIC (traced).dxf`).
 
 ## Full text
 
