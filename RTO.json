@@ -3,59 +3,1119 @@
  "connector": "RTO-144",
  "type": null,
  "series": null,
- "contacts": "15 contacts",
- "verified": null,
- "derived": true,
- "variant_of": "M808C",
- "pins": [
+ "connectors": [
   {
-   "pin": "2",
-   "signal": "ENERGIZED BY MOMENTARILY GROUNDING THE CONTROL T",
-   "kind": "control",
-   "pair": null,
-   "polarity": null,
-   "confidence": "variant",
-   "read_from": "prose",
-   "file": "Modules/AMPLIFIERS/M808C/MANUALS/1994 - M808C - M808C - 808-02-004 - COMPONENT LAYOUT.wp",
-   "page": 1
+   "name": "P1",
+   "kind": "edge",
+   "contacts": 44,
+   "rows": "A-Z (no G, I, O, Q) opposite 1-22",
+   "view": null,
+   "part": null
   },
   {
-   "pin": "6",
-   "signal": "BE TIED TOGETHER THEN, THE CANCEL BUSS",
-   "kind": "audio",
-   "pair": null,
-   "polarity": null,
-   "confidence": "variant",
-   "read_from": "prose",
-   "file": "Modules/AMPLIFIERS/M808C/MANUALS/1994 - M808C - M808C - 808-02-004 - COMPONENT LAYOUT.wp",
-   "page": 1
-  },
-  {
-   "pin": "15",
-   "signal": "INPUT ONE",
-   "kind": "in",
-   "pair": null,
-   "polarity": null,
-   "confidence": "variant",
-   "read_from": "prose",
-   "file": "Modules/AMPLIFIERS/M808C/MANUALS/1994 - M808C - M808C - 808-02-004 - COMPONENT LAYOUT.wp",
-   "page": 1
-  },
-  {
-   "pin": "S",
-   "signal": "INPUT ONE",
-   "kind": "in",
-   "pair": null,
-   "polarity": null,
-   "confidence": "variant",
-   "read_from": "prose",
-   "file": "Modules/AMPLIFIERS/M808C/MANUALS/1994 - M808C - M808C - 808-02-004 - COMPONENT LAYOUT.wp",
-   "page": 1
+   "name": "P2",
+   "kind": "edge",
+   "contacts": 44,
+   "rows": "A-Z (no G, I, O, Q) opposite 1-22",
+   "view": null,
+   "part": null
   }
  ],
+ "verified": null,
+ "built_from": {
+  "pictures": [
+   "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+  ],
+  "sheet": null,
+  "sheet_agrees": null
+ },
+ "pins": [
+  {
+   "connector": "P1",
+   "pin": "1",
+   "ref": "P1-1",
+   "also": "A",
+   "same_row": null,
+   "signal": "LEFT IN 8",
+   "kind": "in",
+   "port": "INPUT 8",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "2",
+   "ref": "P1-2",
+   "also": "B",
+   "same_row": null,
+   "signal": "RIGHT IN 8",
+   "kind": "in",
+   "port": "INPUT 8",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "3",
+   "ref": "P1-3",
+   "also": "C",
+   "same_row": null,
+   "signal": "LEFT IN 7",
+   "kind": "in",
+   "port": "INPUT 7",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "4",
+   "ref": "P1-4",
+   "also": "D",
+   "same_row": null,
+   "signal": "RIGHT IN 7",
+   "kind": "in",
+   "port": "INPUT 7",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "5",
+   "ref": "P1-5",
+   "also": "E",
+   "same_row": null,
+   "signal": "LEFT IN 6",
+   "kind": "in",
+   "port": "INPUT 6",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "6",
+   "ref": "P1-6",
+   "also": "F",
+   "same_row": null,
+   "signal": "RIGHT IN 6",
+   "kind": "in",
+   "port": "INPUT 6",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "7",
+   "ref": "P1-7",
+   "also": "H",
+   "same_row": null,
+   "signal": "LEFT IN 5",
+   "kind": "in",
+   "port": "INPUT 5",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "8",
+   "ref": "P1-8",
+   "also": "J",
+   "same_row": null,
+   "signal": "RIGHT IN 5",
+   "kind": "in",
+   "port": "INPUT 5",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "9",
+   "ref": "P1-9",
+   "also": "K",
+   "same_row": null,
+   "signal": "LEFT IN 4",
+   "kind": "in",
+   "port": "INPUT 4",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "10",
+   "ref": "P1-10",
+   "also": "L",
+   "same_row": null,
+   "signal": "RIGHT IN 4",
+   "kind": "in",
+   "port": "INPUT 4",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "11",
+   "ref": "P1-11",
+   "also": "M",
+   "same_row": null,
+   "signal": "LEFT IN 3",
+   "kind": "in",
+   "port": "INPUT 3",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "12",
+   "ref": "P1-12",
+   "also": "N",
+   "same_row": null,
+   "signal": "RIGHT IN 3",
+   "kind": "in",
+   "port": "INPUT 3",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "13",
+   "ref": "P1-13",
+   "also": "P",
+   "same_row": null,
+   "signal": "LEFT IN 2",
+   "kind": "in",
+   "port": "INPUT 2",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "14",
+   "ref": "P1-14",
+   "also": "R",
+   "same_row": null,
+   "signal": "RIGHT IN 2",
+   "kind": "in",
+   "port": "INPUT 2",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "15",
+   "ref": "P1-15",
+   "also": "S",
+   "same_row": null,
+   "signal": "LEFT IN 1",
+   "kind": "in",
+   "port": "INPUT 1",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "16",
+   "ref": "P1-16",
+   "also": "T",
+   "same_row": null,
+   "signal": "RIGHT IN 1",
+   "kind": "in",
+   "port": "INPUT 1",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "17",
+   "ref": "P1-17",
+   "also": "U",
+   "same_row": null,
+   "signal": "SHIELD GROUND",
+   "kind": "shield",
+   "port": null,
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "18",
+   "ref": "P1-18",
+   "also": "V",
+   "same_row": null,
+   "signal": "CHASSIS",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "19",
+   "ref": "P1-19",
+   "also": "W",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "20",
+   "ref": "P1-20",
+   "also": "X",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "21",
+   "ref": "P1-21",
+   "also": "Y",
+   "same_row": null,
+   "signal": "LEFT OUT",
+   "kind": "out",
+   "port": "OUTPUT",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "22",
+   "ref": "P1-22",
+   "also": "Z",
+   "same_row": null,
+   "signal": "RIGHT OUT",
+   "kind": "out",
+   "port": "OUTPUT",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "A",
+   "ref": "P1-A",
+   "also": "1",
+   "same_row": null,
+   "signal": "LEFT IN 8",
+   "kind": "in",
+   "port": "INPUT 8",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "B",
+   "ref": "P1-B",
+   "also": "2",
+   "same_row": null,
+   "signal": "RIGHT IN 8",
+   "kind": "in",
+   "port": "INPUT 8",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "C",
+   "ref": "P1-C",
+   "also": "3",
+   "same_row": null,
+   "signal": "LEFT IN 7",
+   "kind": "in",
+   "port": "INPUT 7",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "D",
+   "ref": "P1-D",
+   "also": "4",
+   "same_row": null,
+   "signal": "RIGHT IN 7",
+   "kind": "in",
+   "port": "INPUT 7",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "E",
+   "ref": "P1-E",
+   "also": "5",
+   "same_row": null,
+   "signal": "LEFT IN 6",
+   "kind": "in",
+   "port": "INPUT 6",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "F",
+   "ref": "P1-F",
+   "also": "6",
+   "same_row": null,
+   "signal": "RIGHT IN 6",
+   "kind": "in",
+   "port": "INPUT 6",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "H",
+   "ref": "P1-H",
+   "also": "7",
+   "same_row": null,
+   "signal": "LEFT IN 5",
+   "kind": "in",
+   "port": "INPUT 5",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "J",
+   "ref": "P1-J",
+   "also": "8",
+   "same_row": null,
+   "signal": "RIGHT IN 5",
+   "kind": "in",
+   "port": "INPUT 5",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "K",
+   "ref": "P1-K",
+   "also": "9",
+   "same_row": null,
+   "signal": "LEFT IN 4",
+   "kind": "in",
+   "port": "INPUT 4",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "L",
+   "ref": "P1-L",
+   "also": "10",
+   "same_row": null,
+   "signal": "RIGHT IN 4",
+   "kind": "in",
+   "port": "INPUT 4",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "M",
+   "ref": "P1-M",
+   "also": "11",
+   "same_row": null,
+   "signal": "LEFT IN 3",
+   "kind": "in",
+   "port": "INPUT 3",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "N",
+   "ref": "P1-N",
+   "also": "12",
+   "same_row": null,
+   "signal": "RIGHT IN 3",
+   "kind": "in",
+   "port": "INPUT 3",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "P",
+   "ref": "P1-P",
+   "also": "13",
+   "same_row": null,
+   "signal": "LEFT IN 2",
+   "kind": "in",
+   "port": "INPUT 2",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "R",
+   "ref": "P1-R",
+   "also": "14",
+   "same_row": null,
+   "signal": "RIGHT IN 2",
+   "kind": "in",
+   "port": "INPUT 2",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "S",
+   "ref": "P1-S",
+   "also": "15",
+   "same_row": null,
+   "signal": "LEFT IN 1",
+   "kind": "in",
+   "port": "INPUT 1",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "T",
+   "ref": "P1-T",
+   "also": "16",
+   "same_row": null,
+   "signal": "RIGHT IN 1",
+   "kind": "in",
+   "port": "INPUT 1",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "U",
+   "ref": "P1-U",
+   "also": "17",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "V",
+   "ref": "P1-V",
+   "also": "18",
+   "same_row": null,
+   "signal": "CHASSIS",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "W",
+   "ref": "P1-W",
+   "also": "19",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "X",
+   "ref": "P1-X",
+   "also": "20",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "Y",
+   "ref": "P1-Y",
+   "also": "21",
+   "same_row": null,
+   "signal": "LEFT OUT",
+   "kind": "out",
+   "port": "OUTPUT",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "Z",
+   "ref": "P1-Z",
+   "also": "22",
+   "same_row": null,
+   "signal": "RIGHT OUT",
+   "kind": "out",
+   "port": "OUTPUT",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "10",
+   "ref": "P2-10",
+   "also": "L",
+   "same_row": null,
+   "signal": "CONTROL 1",
+   "kind": "control_in",
+   "port": "CTL 1",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "11",
+   "ref": "P2-11",
+   "also": "M",
+   "same_row": null,
+   "signal": "CONTROL 3",
+   "kind": "control_in",
+   "port": "CTL 3",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "14",
+   "ref": "P2-14",
+   "also": "R",
+   "same_row": true,
+   "signal": "CONTROL 5",
+   "kind": "control_in",
+   "port": "CTL 5",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "15",
+   "ref": "P2-15",
+   "also": "S",
+   "same_row": null,
+   "signal": "CONTROL 6",
+   "kind": "control_in",
+   "port": "CTL 6",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "16",
+   "ref": "P2-16",
+   "also": "T",
+   "same_row": null,
+   "signal": "CONTROL 8",
+   "kind": "control_in",
+   "port": "CTL 8",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "21",
+   "ref": "P2-21",
+   "also": "Y",
+   "same_row": null,
+   "signal": "+25 V",
+   "kind": "power",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "22",
+   "ref": "P2-22",
+   "also": "Z",
+   "same_row": null,
+   "signal": "CONTROL COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "L",
+   "ref": "P2-L",
+   "also": "10",
+   "same_row": null,
+   "signal": "CONTROL 2",
+   "kind": "control_in",
+   "port": "CTL 2",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "M",
+   "ref": "P2-M",
+   "also": "11",
+   "same_row": null,
+   "signal": "CONTROL 4",
+   "kind": "control_in",
+   "port": "CTL 4",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "R",
+   "ref": "P2-R",
+   "also": "14",
+   "same_row": null,
+   "signal": "CONTROL 5",
+   "kind": "control_in",
+   "port": "CTL 5",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "S",
+   "ref": "P2-S",
+   "also": "15",
+   "same_row": null,
+   "signal": "CONTROL 7",
+   "kind": "control_in",
+   "port": "CTL 7",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "T",
+   "ref": "P2-T",
+   "also": "16",
+   "same_row": null,
+   "signal": "CANCEL",
+   "kind": "control_in",
+   "port": "CANCEL",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "Y",
+   "ref": "P2-Y",
+   "also": "21",
+   "same_row": true,
+   "signal": "+25 V",
+   "kind": "power",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "Z",
+   "ref": "P2-Z",
+   "also": "22",
+   "same_row": null,
+   "signal": "CHASSIS GROUND",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M808B/PINOUTS/1994 - M808B - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  }
+ ],
+ "ports": [
+  {
+   "name": "INPUT 1",
+   "dir": "in",
+   "pins": {
+    "L": "P1-15",
+    "L/2": "P1-S",
+    "R": "P1-16",
+    "R/2": "P1-T"
+   }
+  },
+  {
+   "name": "INPUT 2",
+   "dir": "in",
+   "pins": {
+    "L": "P1-13",
+    "L/2": "P1-P",
+    "R": "P1-14",
+    "R/2": "P1-R"
+   }
+  },
+  {
+   "name": "INPUT 3",
+   "dir": "in",
+   "pins": {
+    "L": "P1-11",
+    "L/2": "P1-M",
+    "R": "P1-12",
+    "R/2": "P1-N"
+   }
+  },
+  {
+   "name": "INPUT 4",
+   "dir": "in",
+   "pins": {
+    "L": "P1-9",
+    "L/2": "P1-K",
+    "R": "P1-10",
+    "R/2": "P1-L"
+   }
+  },
+  {
+   "name": "INPUT 5",
+   "dir": "in",
+   "pins": {
+    "L": "P1-7",
+    "L/2": "P1-H",
+    "R": "P1-8",
+    "R/2": "P1-J"
+   }
+  },
+  {
+   "name": "INPUT 6",
+   "dir": "in",
+   "pins": {
+    "L": "P1-5",
+    "L/2": "P1-E",
+    "R": "P1-6",
+    "R/2": "P1-F"
+   }
+  },
+  {
+   "name": "INPUT 7",
+   "dir": "in",
+   "pins": {
+    "L": "P1-3",
+    "L/2": "P1-C",
+    "R": "P1-4",
+    "R/2": "P1-D"
+   }
+  },
+  {
+   "name": "INPUT 8",
+   "dir": "in",
+   "pins": {
+    "L": "P1-1",
+    "L/2": "P1-A",
+    "R": "P1-2",
+    "R/2": "P1-B"
+   }
+  },
+  {
+   "name": "OUTPUT",
+   "dir": "out",
+   "pins": {
+    "L": "P1-21",
+    "L/2": "P1-Y",
+    "R": "P1-22",
+    "R/2": "P1-Z"
+   }
+  },
+  {
+   "name": "CTL 1",
+   "dir": "control_in",
+   "pins": {
+    "ctl": "P2-10"
+   }
+  },
+  {
+   "name": "CTL 2",
+   "dir": "control_in",
+   "pins": {
+    "ctl": "P2-L"
+   }
+  },
+  {
+   "name": "CTL 3",
+   "dir": "control_in",
+   "pins": {
+    "ctl": "P2-11"
+   }
+  },
+  {
+   "name": "CTL 4",
+   "dir": "control_in",
+   "pins": {
+    "ctl": "P2-M"
+   }
+  },
+  {
+   "name": "CTL 5",
+   "dir": "control_in",
+   "pins": {
+    "ctl": "P2-R"
+   }
+  },
+  {
+   "name": "CTL 6",
+   "dir": "control_in",
+   "pins": {
+    "ctl": "P2-15"
+   }
+  },
+  {
+   "name": "CTL 7",
+   "dir": "control_in",
+   "pins": {
+    "ctl": "P2-S"
+   }
+  },
+  {
+   "name": "CTL 8",
+   "dir": "control_in",
+   "pins": {
+    "ctl": "P2-16"
+   }
+  },
+  {
+   "name": "CANCEL",
+   "dir": "control_in",
+   "pins": {
+    "ctl": "P2-T"
+   }
+  }
+ ],
+ "inserts": [],
  "straps": [],
- "power": [],
- "sources": [
-  "Modules/AMPLIFIERS/M808C/MANUALS/1994 - M808C - M808C - 808-02-004 - COMPONENT LAYOUT.wp"
- ]
+ "conflicts": [],
+ "to_check": []
 }

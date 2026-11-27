@@ -31,14 +31,68 @@ _Pinouts: the RTO-144 edge connector (connection sheets, connector layouts and r
 
 ## RTO-144 pinout
 
-15 contacts. Read from the module's own documents (no RTO-144 sheet yet). Every contact, with where it was read: [`RTO.json`](RTO.json).
+Read from 1 pinout picture (each its own `.pinout.json` beside it). Every contact, with where it was read: [`RTO.json`](RTO.json). How a picture becomes this table: [the pinout decision tree](https://github.com/WardBeckSystems/WBSps.ca/blob/main/2026/Engineering/PINOUTS.md).
 
-| Pin | Signal | Kind | Pair | Confidence |
+| Pin | Signal | Kind | Port | Confidence |
 |---|---|---|---|---|
-| 2 | ENERGIZED BY MOMENTARILY GROUNDING THE CONTROL T | control |  | variant |
-| 6 | BE TIED TOGETHER THEN, THE CANCEL BUSS | audio |  | variant |
-| 15 | INPUT ONE | in |  | variant |
-| S | INPUT ONE | in |  | variant |
+| P1-1 | LEFT IN 8 | in | INPUT 8 L | high |
+| P1-2 | RIGHT IN 8 | in | INPUT 8 R | high |
+| P1-3 | LEFT IN 7 | in | INPUT 7 L | high |
+| P1-4 | RIGHT IN 7 | in | INPUT 7 R | high |
+| P1-5 | LEFT IN 6 | in | INPUT 6 L | high |
+| P1-6 | RIGHT IN 6 | in | INPUT 6 R | high |
+| P1-7 | LEFT IN 5 | in | INPUT 5 L | high |
+| P1-8 | RIGHT IN 5 | in | INPUT 5 R | high |
+| P1-9 | LEFT IN 4 | in | INPUT 4 L | high |
+| P1-10 | RIGHT IN 4 | in | INPUT 4 R | high |
+| P1-11 | LEFT IN 3 | in | INPUT 3 L | high |
+| P1-12 | RIGHT IN 3 | in | INPUT 3 R | high |
+| P1-13 | LEFT IN 2 | in | INPUT 2 L | high |
+| P1-14 | RIGHT IN 2 | in | INPUT 2 R | high |
+| P1-15 | LEFT IN 1 | in | INPUT 1 L | high |
+| P1-16 | RIGHT IN 1 | in | INPUT 1 R | high |
+| P1-17 | SHIELD GROUND | shield | shield | high |
+| P1-18 | CHASSIS | ground |  | high |
+| P1-19 | N/C | nc |  | high |
+| P1-20 | N/C | nc |  | high |
+| P1-21 | LEFT OUT | out | OUTPUT L | high |
+| P1-22 | RIGHT OUT | out | OUTPUT R | high |
+| P1-A | LEFT IN 8 | in | INPUT 8 L | high |
+| P1-B | RIGHT IN 8 | in | INPUT 8 R | high |
+| P1-C | LEFT IN 7 | in | INPUT 7 L | high |
+| P1-D | RIGHT IN 7 | in | INPUT 7 R | high |
+| P1-E | LEFT IN 6 | in | INPUT 6 L | high |
+| P1-F | RIGHT IN 6 | in | INPUT 6 R | high |
+| P1-H | LEFT IN 5 | in | INPUT 5 L | high |
+| P1-J | RIGHT IN 5 | in | INPUT 5 R | high |
+| P1-K | LEFT IN 4 | in | INPUT 4 L | high |
+| P1-L | RIGHT IN 4 | in | INPUT 4 R | high |
+| P1-M | LEFT IN 3 | in | INPUT 3 L | high |
+| P1-N | RIGHT IN 3 | in | INPUT 3 R | high |
+| P1-P | LEFT IN 2 | in | INPUT 2 L | high |
+| P1-R | RIGHT IN 2 | in | INPUT 2 R | high |
+| P1-S | LEFT IN 1 | in | INPUT 1 L | high |
+| P1-T | RIGHT IN 1 | in | INPUT 1 R | high |
+| P1-U | N/C | nc |  | high |
+| P1-V | CHASSIS | ground |  | high |
+| P1-W | N/C | nc |  | high |
+| P1-X | N/C | nc |  | high |
+| P1-Y | LEFT OUT | out | OUTPUT L | high |
+| P1-Z | RIGHT OUT | out | OUTPUT R | high |
+| P2-10 | CONTROL 1 | control_in | CTL 1 | high |
+| P2-11 | CONTROL 3 | control_in | CTL 3 | high |
+| P2-14 | CONTROL 5 | control_in | CTL 5 | high |
+| P2-15 | CONTROL 6 | control_in | CTL 6 | high |
+| P2-16 | CONTROL 8 | control_in | CTL 8 | high |
+| P2-21 | +25 V | power |  | high |
+| P2-22 | CONTROL COMMON | ground |  | high |
+| P2-L | CONTROL 2 | control_in | CTL 2 | high |
+| P2-M | CONTROL 4 | control_in | CTL 4 | high |
+| P2-R | CONTROL 5 | control_in | CTL 5 | high |
+| P2-S | CONTROL 7 | control_in | CTL 7 | high |
+| P2-T | CANCEL | control_in | CANCEL | high |
+| P2-Y | +25 V | power |  | high |
+| P2-Z | CHASSIS GROUND | ground |  | high |
 
 ## KiCad
 
