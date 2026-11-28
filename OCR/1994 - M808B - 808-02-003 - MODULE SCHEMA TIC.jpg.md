@@ -1,5 +1,5 @@
 # 1994 - M808B - 808-02-003 - MODULE SCHEMA TIC.jpg
-Wiki page: [M808B](../../../../PAGES/M808B.md)
+Wiki page: [M808B](../)
 
 
 - **Year:** 1994 (module estimate (family))

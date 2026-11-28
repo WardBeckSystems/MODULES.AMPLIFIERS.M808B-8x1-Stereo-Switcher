@@ -1,6 +1,6 @@
 # M808B 8x1 Stereo Switcher · Amplifiers
 
-Ward-Beck Systems M808B, 1994|27. Wiki page: [M808B on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/PAGES/M808B.html)
+Ward-Beck Systems M808B, 1994|27. Wiki page: [M808B on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/WBSps.ca/Github.WardBeckSystems/MODULES.AMPLIFIERS.M808B-8x1-Stereo-Switcher/)
 
 | Folder | What is in it | Files |
 |---|---|---|

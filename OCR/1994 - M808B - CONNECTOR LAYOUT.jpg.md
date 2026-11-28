@@ -1,5 +1,5 @@
 # 1994 - M808B - CONNECTOR LAYOUT.jpg
-Wiki page: [M808B](../../../../PAGES/M808B.md)
+Wiki page: [M808B](../)
 
 
 - **Year:** 1994 (module estimate (family))
